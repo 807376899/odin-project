@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.navline{
+    display: flex;
+}
+ul{
+    display: flex;
+}
