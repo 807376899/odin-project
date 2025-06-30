@@ -1,6 +1,8 @@
 body{
+    font-family:'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
 }
 .header{
     display: flex;
@@ -11,4 +13,33 @@ body{
 }
 ul{
     display: flex;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+}
+.pragraph{
+    display: flex;
+    flex-direction: column;
+}
+.signup{
+    display: flex;
+}
+.sectionfour{
+    display: flex;
+    flex-direction: column;
 }
