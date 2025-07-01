@@ -1,19 +1,19 @@
 body{
     min-height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow:scroll;
     font-family:'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     
-    flex: 1 1 auto;
 }
 .header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    height: 50vh;
+    height: 500px;
+    flex: 1 1 auto;
 }
 .navline{
     display: flex;
@@ -24,6 +24,7 @@ body{
 .logo{
     color: #F9FAF8;
     font-size: 24px;
+    font-size: 2vw;
 }
 ul{
     display: flex;
@@ -34,6 +35,7 @@ a{
 }
 .banner{
     display: flex;
+    padding:0 47px;
 }
 .left{
     display: flex;
@@ -50,20 +52,49 @@ a{
     font-size: 18px;
 }
 .information{
+    height: 500px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+.information .title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 .cards{
     display: flex;
 }
+.card .text{
+    font-size: 18px;
+}
 .pragraph{
+    height: 500px;
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    flex: 1 1 auto;
+    justify-content: center;
+    padding: 17px 47px;
+}
+.pragraph .text{
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+}
+.quote{
+    align-self: end;
+    font-weight: 900;
 }
 .signup{
+padding: 60px;
+}
+.bluebackground{
     display: flex;
+    background-color: #3882F6;
+    padding: 46px;
 }
 .sectionfour{
     display: flex;
