@@ -8,18 +8,15 @@ body{
     justify-content:space-between;
     
 }
-.header{
-    display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
-    height: 500px;
-    flex: 1 1 auto;
-}
+
 .navline{
     display: flex;
     padding: 17px 47px;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
+    height: 50px;
+    flex: 1 1 auto;
 }
 .logo{
     color: #F9FAF8;
@@ -36,15 +33,26 @@ a{
 .banner{
     display: flex;
     padding:0 47px;
+    background-color: #1F2937;
+    height: 450px;
+    flex: 1 1 auto;
+    align-items: center;
 }
 .left{
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
+    width: 50%;
 }
-.header .title{
+.banner .title{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+}
+.banner img{
+    width: 50%;
+    height: auto;
+    flex: 1 1 auto;
 }
 .introduction,
 a{
@@ -77,12 +85,13 @@ a{
     background-color: #E5E7EB;
     flex: 1 1 auto;
     justify-content: center;
-    padding: 17px 47px;
+    padding: 17px 120px;
 }
 .pragraph .text{
     font-size: 36px;
     font-style:italic;
     color: #1F2937;
+   
 }
 .quote{
     align-self: end;
@@ -90,22 +99,36 @@ a{
 }
 .signup{
 padding: 60px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .bluebackground{
     display: flex;
     background-color: #3882F6;
-    padding: 46px;
+    height: 50%;
+    align-items: center;
+    padding: 0 50px;
 }
 .sectionfour{
     display: flex;
     flex-direction: column;
 }
 .footer{
+    height: 50px;
     background-color: #1F2937;
     color: #E5E7EB;
     text-align: center;
+    line-height: 50px;
 }
 button{
     background-color: #3882F6;
     color: white;
+    width: 120px;
+    
+}
+.signup button{
+    border-color: white;
+    height: 50px;
 }
