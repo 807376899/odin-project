@@ -1,5 +1,5 @@
 body{
-    min-height: 100vh;
+    
     margin: 0;
     overflow:scroll;
     font-family:'Courier New', Courier, monospace;
@@ -18,7 +18,8 @@ body{
     height: 50px;
     flex: 1 1 auto;
 }
-.logo{
+.logo,
+.call{
     color: #F9FAF8;
     font-size: 24px;
     font-size: 2vw;
@@ -33,9 +34,11 @@ a{
 .banner{
     display: flex;
     padding:0 47px;
+    gap: 20px;
     background-color: #1F2937;
-    height: 450px;
+    height: 360px;
     flex: 1 1 auto;
+    justify-content: space-around;
     align-items: center;
 }
 .left{
@@ -50,22 +53,27 @@ a{
     font-weight: 900;
 }
 .banner img{
-    width: 50%;
-    height: auto;
+    max-height: 50%;
+    width: auto;
     flex: 1 1 auto;
+    object-fit: contain;
+
 }
 .introduction,
-a{
+a,
+.sectionfour .text{
     color: #E5E7EB;
     font-size: 18px;
 }
 .information{
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     text-align: center;
     flex: 1 1 auto;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 87px;
+    
 }
 .information .title{
     font-size: 36px;
@@ -74,12 +82,17 @@ a{
 }
 .cards{
     display: flex;
+    gap: 60px;
 }
 .card .text{
     font-size: 18px;
 }
+.card img{
+    height: 200px;
+    width: auto;
+}
 .pragraph{
-    height: 500px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
@@ -98,17 +111,21 @@ a{
     font-weight: 900;
 }
 .signup{
-padding: 60px;
-height: 300px;
+padding: 0 47px;
+height: 280px;
 display: flex;
-justify-content: center;
+
+justify-content: space-around;
 align-items: center;
 }
 .bluebackground{
     display: flex;
     background-color: #3882F6;
     height: 50%;
+    border-radius: 10px;
     align-items: center;
+    justify-content: space-between;
+    gap: 60px;
     padding: 0 50px;
 }
 .sectionfour{
@@ -126,6 +143,8 @@ button{
     background-color: #3882F6;
     color: white;
     width: 120px;
+    height: 30px;
+    border-radius: 5px;
     
 }
 .signup button{
